@@ -1,0 +1,104 @@
+========================================
+Naive Bayes Test on Digits Dataset
+========================================
+
+Original data:
+  Total samples: 1797
+  Feature dimension: 64
+  Feature value range: 0-0.9375
+
+  Sample pixel values (first 10 features of first sample):
+  0 0 0.3125 0.8125 0.5625 0.0625 0 0 0 0
+
+Discretizing features to 0-255...
+  Discretized sample values (first 10 features):
+  0 0 79 207 143 15 0 0 0 0
+
+Number of classes: 10 (0-9)
+
+Data split:
+  Training set size: 1437
+  Test set size: 360
+
+=== Naive Bayes Performance ===
+------------------------------------------------
+Training time:   13 ms
+Prediction time: 15 ms
+Accuracy:        0.9111
+Weighted F1:     0.9121
+
+Prediction statistics:
+  Correct:   328 (91.11%)
+  Wrong:     32 (8.89%)
+  Rejected:  0 (0.00%)
+
+=== First 30 Test Sample Predictions ===
+Idx     True    Pred    Status
+------------------------------------------------
+0       2       2       OK
+1       7       7       OK
+2       7       7       OK
+3       3       3       OK
+4       7       7       OK
+5       0       0       OK
+6       6       6       OK
+7       4       4       OK
+8       7       7       OK
+9       4       4       OK
+10      0       0       OK
+11      5       5       OK
+12      1       1       OK
+13      4       4       OK
+14      0       0       OK
+15      8       8       OK
+16      9       9       OK
+17      1       1       OK
+18      2       2       OK
+19      2       2       OK
+20      7       7       OK
+21      1       1       OK
+22      3       3       OK
+23      9       9       OK
+24      2       2       OK
+25      7       7       OK
+26      0       0       OK
+27      1       1       OK
+28      4       4       OK
+29      3       3       OK
+
+=== Confusion Matrix ===
+        0   1   2   3   4   5   6   7   8   9
+     ----------------------------------------
+  0 |  40   0   0   0   1   0   0   0   0   0
+  1 |   0  25   0   0   0   0   0   0   0   3
+  2 |   0   0  34   3   0   0   0   1   1   0
+  3 |   0   0   0  41   0   0   0   1   2   2
+  4 |   0   0   0   0  38   0   0   2   0   0
+  5 |   0   0   0   0   0  35   0   0   0   3
+  6 |   1   0   0   0   1   0  32   0   0   0
+  7 |   0   0   0   0   1   0   0  32   0   0
+  8 |   0   2   1   1   0   0   0   0  23   0
+  9 |   0   1   0   0   0   0   0   2   3  28
+
+=== Per-Class Performance ===
+Class   Total   Correct Rejected        Acc(accepted)   Acc(all)
+------------------------------------------------
+0       41      40      0               0.976           0.976
+1       28      25      0               0.893           0.893
+2       39      34      0               0.872           0.872
+3       46      41      0               0.891           0.891
+4       40      38      0               0.950           0.950
+5       38      35      0               0.921           0.921
+6       34      32      0               0.941           0.941
+7       33      32      0               0.970           0.970
+8       27      23      0               0.852           0.852
+9       34      28      0               0.824           0.824
+
+=== Feature Coverage Analysis ===
+------------------------------------------------
+Training set feature coverage:
+  Average unique values per feature: 13.8
+  Maximum unique values per feature: 17
+  Feature dimension: 64
+
+Test completed!
