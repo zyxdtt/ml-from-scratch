@@ -1,0 +1,43 @@
+========================================
+   Decision Tree Algorithm Test
+========================================
+
+========================================
+Testing Regression Tree - California Housing Dataset
+========================================
+Loading data...
+Training set: 5000 samples, 8 features
+Test set: 1000 samples
+
+Training...
+Training completed! Time: 6264 ms
+
+Predicting...
+Prediction completed! Time: 0 ms
+
+Evaluation Results:
+  MSE:  0.497816
+  RMSE: 0.705560
+  MAE:  0.490688
+  R2:   0.611621
+
+========================================
+Testing Classification Tree - Digits Dataset
+========================================
+Loading data...
+Training set: 1437 samples, 64 features
+Test set: 360 samples
+
+Training...
+Training completed! Time: 242 ms
+
+Predicting...
+Prediction completed! Time: 0 ms
+
+Evaluation Results:
+  Accuracy: 78.0556% (281/360)
+  Weighted F1: 0.7836
+
+========================================
+All tests completed!
+========================================
