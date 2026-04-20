@@ -1,0 +1,19 @@
+=== Testing Logistic Regression on Digits Dataset ===
+
+1. Loading data...
+   Training samples: 1437
+   Test samples: 360
+   Features: 64
+
+2. Training model...
+   Training time: 4617 ms
+
+3. Predicting...
+
+4. Results:
+   Training accuracy: 99.3041%
+   Test accuracy: 93.8889%
+
+5. Sample predictions (first 10 test samples):
+   True:     2 2 7 1 0 4 6 0 2 0
+   Predicted: 2 2 7 1 0 4 6 6 2 0
