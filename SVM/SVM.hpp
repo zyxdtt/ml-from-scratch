@@ -1,3 +1,4 @@
+//2026 4 26
 // SVM.hpp
 // A complete implementation of SVM using SMO algorithm
 // Supports linear kernel (via polynomial with degree=1) and RBF kernel
