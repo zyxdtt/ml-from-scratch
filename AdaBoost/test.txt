@@ -1,0 +1,50 @@
+========================================
+AdaBoost Test with Breast Cancer Dataset
+========================================
+Loading 455 samples, 30 features
+Loading 114 samples, 30 features
+
+Train data: 455 samples, 30 features
+Test data: 114 samples, 30 features
+
+First 3 training samples (first 5 features):
+  Sample 0: 9.029 17.33 58.79 250.5 0.1066 ... label=1
+  Sample 1: 21.09 26.57 142.7 1311 0.1141 ... label=-1
+  Sample 2: 9.173 13.86 59.2 260.9 0.07721 ... label=1
+
+Load time: 0 seconds
+
+Starting AdaBoost training...
+epoch: 1, train accuracy: 0.920879
+epoch: 2, train accuracy: 0.920879
+epoch: 3, train accuracy: 0.934066
+epoch: 4, train accuracy: 0.958242
+epoch: 5, train accuracy: 0.964835
+epoch: 6, train accuracy: 0.962637
+epoch: 7, train accuracy: 0.973626
+epoch: 8, train accuracy: 0.975824
+epoch: 9, train accuracy: 0.971429
+epoch: 10, train accuracy: 0.984615
+epoch: 11, train accuracy: 0.982418
+epoch: 12, train accuracy: 0.991209
+epoch: 13, train accuracy: 0.991209
+epoch: 14, train accuracy: 0.989011
+epoch: 15, train accuracy: 0.995604
+epoch: 16, train accuracy: 0.995604
+epoch: 17, train accuracy: 0.995604
+epoch: 18, train accuracy: 0.995604
+epoch: 19, train accuracy: 0.997802
+epoch: 20, train accuracy: 0.995604
+epoch: 21, train accuracy: 0.997802
+epoch: 22, train accuracy: 0.997802
+epoch: 23, train accuracy: 0.997802
+epoch: 24, train accuracy: 0.997802
+epoch: 25, train accuracy: 1
+
+Training time: 0 seconds
+Testing time: 0 seconds
+========================================
+Final Results:
+Train accuracy: 1
+Test accuracy: 0.964912
+========================================
