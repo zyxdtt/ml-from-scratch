@@ -1,0 +1,80 @@
+========================================
+Gradient Boosting Tree Test
+California Housing Dataset
+========================================
+Loading 16512 samples, 8 features
+Loading 4128 samples, 8 features
+
+Train data: 16512 samples, 8 features
+Test data: 4128 samples
+
+First 3 training samples (first 3 features):
+  Sample 0: 3.2596 33 5.01766 ... target=1.03
+  Sample 1: 3.8125 49 4.47354 ... target=3.821
+  Sample 2: 4.1563 4 5.64583 ... target=1.726
+
+Load time: 0 seconds
+
+Starting Gradient Boosting training...
+epoch 1, loss: 0.913024
+epoch 2, loss: 0.822593
+epoch 3, loss: 0.73714
+epoch 4, loss: 0.689817
+epoch 5, loss: 0.65544
+epoch 6, loss: 0.630526
+epoch 7, loss: 0.602296
+epoch 8, loss: 0.578244
+epoch 9, loss: 0.56153
+epoch 10, loss: 0.547333
+epoch 11, loss: 0.5345
+epoch 12, loss: 0.515443
+epoch 13, loss: 0.507229
+epoch 14, loss: 0.499513
+epoch 15, loss: 0.492853
+epoch 16, loss: 0.481171
+epoch 17, loss: 0.474437
+epoch 18, loss: 0.468564
+epoch 19, loss: 0.462625
+epoch 20, loss: 0.456535
+epoch 21, loss: 0.446891
+epoch 22, loss: 0.441555
+epoch 23, loss: 0.437099
+epoch 24, loss: 0.437358
+epoch 25, loss: 0.437358
+epoch 26, loss: 0.437358
+epoch 27, loss: 0.437358
+epoch 28, loss: 0.437358
+epoch 29, loss: 0.437358
+epoch 30, loss: 0.437358
+epoch 31, loss: 0.437358
+epoch 32, loss: 0.437358
+epoch 33, loss: 0.437358
+epoch 34, loss: 0.437358
+epoch 35, loss: 0.437358
+epoch 36, loss: 0.437358
+epoch 37, loss: 0.437358
+epoch 38, loss: 0.437358
+epoch 39, loss: 0.437358
+epoch 40, loss: 0.437358
+epoch 41, loss: 0.437358
+epoch 42, loss: 0.437358
+epoch 43, loss: 0.437358
+epoch 44, loss: 0.437358
+epoch 45, loss: 0.437358
+epoch 46, loss: 0.437358
+epoch 47, loss: 0.437358
+epoch 48, loss: 0.437358
+epoch 49, loss: 0.437358
+epoch 50, loss: 0.437358
+
+Training time: 0 seconds
+Prediction time: 0 seconds
+
+========================================
+Final Results:
+========================================
+Train MSE: 0.437358
+Test MSE: 0.458142
+Train RMSE: 0.661331
+Test RMSE: 0.676862
+========================================
