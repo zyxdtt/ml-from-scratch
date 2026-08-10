@@ -26,7 +26,7 @@ This project is grounded in **Chapter 36 (Reinforcement Learning)** from Profess
 
 > *"Look before you leap — but only look for a while."*
 
-A dead-simple baseline: spend the first 10% of steps exploring randomly, then go full greedy for the rest. No tuning required. Robust, but rigid — like a sprinter who sprints the first lap and then just... coasts.
+A dead-simple baseline: spend the first 50% of steps exploring randomly, then go full greedy for the rest. No tuning required. Robust, but rigid — like a sprinter who sprints the first lap and then just... coasts.
 
 ---
 
