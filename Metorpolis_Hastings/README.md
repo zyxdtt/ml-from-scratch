@@ -77,21 +77,24 @@ python visualize.py
 
 ### Bimodal Distribution
 <!-- IMAGE: bimodal_distribution.png -->
-![Bimodal Distribution](Figure/bimodal.png)
+![Bimodal Distribution](Figure/Figure_1.png)
+
 *Figure 1: Samples drawn from the bimodal distribution. The chain successfully explores both modes at (-3,-3) and (3,3), demonstrating good mixing properties.*
 
 <!-- IMAGE_PLACEHOLDER: Insert bimodal distribution sample plot here -->
 
 ### Ring Distribution
 <!-- IMAGE: ring_distribution.png -->
-![Ring Distribution](Figure/ring.png)
+![Ring Distribution](Figure/Figure_2.png)
+
 *Figure 2: Samples drawn from the ring distribution. The algorithm effectively samples from the annular region (radius ≈ 5), preserving the circular structure of the distribution.*
 
 <!-- IMAGE_PLACEHOLDER: Insert ring distribution sample plot here -->
 
 ### Banana Distribution
 <!-- IMAGE: banana_distribution.png -->
-![Banana Distribution](Figure/banana.png)
+![Banana Distribution](Figure/Figure_3.png)
+
 *Figure 3: Samples drawn from the banana (Rosenbrock-like) distribution. The chain captures the strongly correlated "banana" shape, demonstrating the algorithm's ability to handle complex correlation structures.*
 
 <!-- IMAGE_PLACEHOLDER: Insert banana distribution sample plot here -->
